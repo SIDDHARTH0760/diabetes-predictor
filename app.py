@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler# used to standardize the data
-# from sklearn.model_selection import train_test_split # used to split data for train and test
-# from sklearn import svm
-# from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split # used to split data for train and test
+from sklearn import svm
+from sklearn.metrics import accuracy_score
 import pickle
 import streamlit as st
 
